@@ -10,11 +10,18 @@
     - "mvn:org.jahia.modules/bootstrap4-components"
     - "mvn:org.jahia.modules/forms-core"
     - "mvn:org.jahia.modules/forms-prefill"
+    - "mvn:org.jahia.modules/database-connector"
+    - "mvn:org.jahia.modules/augmented-search-ui"
+    - "mvn:org.jahia.modules/consent-manager"
+    - "mvn:org.jahia.modules/jexperience"
+    - "mvn:org.jahia.modules/jexperience-dashboards"
+    - "mvn:org.jahia.modules/jexperience-forms-bridge"
+    - "mvn:org.jahia.se.modules/game-4-jcustomer-core/"
+    - "mvn:org.jahia.se.modules/game-4-jcustomer-components-quiz"
     - "mvn:org.jahia.se.modules/industrial-form-theme"
     - "mvn:org.jahia.se.modules/codemirror-editor"
     - "mvn:org.jahia.se.modules/widen-picker"
     - "mvn:org.jahia.se.modules/industrial"
-
   autoStart: true
   uninstallPreviousVersion: true
 - importSite: jar:https://github.com/Jahia/provisioning-drive/raw/main/drive-webproject.zip!/motor-retail.zip
