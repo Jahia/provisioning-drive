@@ -1,6 +1,6 @@
 # provisioning-drive
 used to hold all script and source to provision the Drive demo
-
+1. Update installed modules with the latest release
 1. Launch provisioning script
 ```shell
 curl --request POST \
