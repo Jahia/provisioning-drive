@@ -30,7 +30,7 @@
     #    - "mvn:org.jahia.modules/nextjs-proxy"
     #   Misc
     - "mvn:org.jahia.se.modules/codemirror-editor/1.1.3"
-    - "mvn:org.jahia.modules/consent-manager"
+    - "mvn:org.jahia.se.modules/consent-manager"
     - "mvn:org.jahia.se.modules/widen-picker/2.4.0"
   autoStart: true
   uninstallPreviousVersion: true
