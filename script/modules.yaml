@@ -17,9 +17,14 @@
     - "mvn:org.jahia.modules/database-connector"
     - "mvn:org.jahia.modules/elasticsearch-connector"
     - "mvn:org.jahia.modules/graphql-dxm-provider"
+    # OAuth
+    - "mvn:org.jahia.modules/jcr-auth-provider"
+    - "mvn:org.jahia.modules/jahia-authentication"
+    - "mvn:org.jahia.modules/jahia-oauth"
     #   jExperience
     - "mvn:org.jahia.modules/jexperience"
     - "mvn:org.jahia.modules/jexperience-forms-bridge"
+    - "mvn:org.jahia.modules/jexperience-auth-data-mapper"
     #    - "mvn:org.jahia.modules/jexperience-dashboards"
     #   Quiz
     - "mvn:org.jahia.se.modules/game-4-jcustomer-core/1.1.4"
