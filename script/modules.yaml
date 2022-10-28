@@ -21,12 +21,16 @@
     - "mvn:org.jahia.modules/jcr-auth-provider"
     - "mvn:org.jahia.modules/jahia-authentication"
     - "mvn:org.jahia.modules/jahia-oauth"
+    # Kibana Provider
+    - "mvn:org.jahia.modules/kibana-dashboards-provider"
     #   jExperience
     - "mvn:org.jahia.modules/jexperience"
     - "mvn:org.jahia.modules/jexperience-forms-bridge"
     - "mvn:org.jahia.modules/jexperience-auth-data-mapper"
-    #    - "mvn:org.jahia.modules/jexperience-dashboards"
+    - "mvn:org.jahia.modules/jexperience-dashboards"
     #   Quiz
+    - "jar:https://github.com/Jahia/provisioning-drive/raw/main/modules/quiz-electric-vehicule-1.0.0-SNAPSHOT.jar"
+    - "jar:https://github.com/Jahia/provisioning-drive/raw/main/modules/sfdc-unomi-properties-1.0.0-SNAPSHOT.jar"
     - "mvn:org.jahia.se.modules/game-4-jcustomer-core/1.1.4"
     - "mvn:org.jahia.se.modules/game-4-jcustomer-components-quiz/1.1.4"
     #   Nextjs industrial
