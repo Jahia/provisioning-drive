@@ -29,8 +29,8 @@
     - "mvn:org.jahia.modules/jexperience-auth-data-mapper"
     - "mvn:org.jahia.modules/jexperience-dashboards"
     #   Quiz
-    - "jar:https://github.com/Jahia/provisioning-drive/raw/main/modules/quiz-electric-vehicule-1.0.0-SNAPSHOT.jar"
-    - "jar:https://github.com/Jahia/provisioning-drive/raw/main/modules/sfdc-unomi-properties-1.0.0-SNAPSHOT.jar"
+    - "https://github.com/Jahia/provisioning-drive/raw/main/modules/quiz-electric-vehicule-1.0.0-SNAPSHOT.jar"
+    - "https://github.com/Jahia/provisioning-drive/raw/main/modules/sfdc-unomi-properties-1.0.0-SNAPSHOT.jar"
     - "mvn:org.jahia.se.modules/game-4-jcustomer-core/1.1.4"
     - "mvn:org.jahia.se.modules/game-4-jcustomer-components-quiz/1.1.4"
     #   Nextjs industrial
@@ -41,5 +41,6 @@
     - "mvn:org.jahia.se.modules/codemirror-editor/1.1.3"
     - "mvn:org.jahia.se.modules/consent-manager"
     - "mvn:org.jahia.se.modules/widen-picker/2.4.0"
+    - "https://github.com/Jahia/provisioning-drive/raw/main/modules/drive-motor-user-portal-1.0.0-SNAPSHOT.jar"
   autoStart: true
   uninstallPreviousVersion: true
